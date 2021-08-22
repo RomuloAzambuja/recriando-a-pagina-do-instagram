@@ -15,3 +15,20 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.instagram_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+.instagram_fone  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50rem;
+}
+.instagram_fone img {
+    height: 50rem;
+}
