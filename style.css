@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -16,19 +16,24 @@ body{
     justify-content: center;
 }
 
-.instagram_wrapper {
+.instagram-wrapper {
     display: flex;
     align-items: center;
     justify-content: start;
     width: 60%;
     height: 100vh;
 }
-.instagram_fone  {
+.instagram-phone {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50rem;
+    width: 50%;
 }
-.instagram_fone img {
+.instagram-phone img{
     height: 50rem;
+}
+.instagram-continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
